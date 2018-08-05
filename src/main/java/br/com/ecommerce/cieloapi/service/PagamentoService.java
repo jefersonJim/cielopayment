@@ -1,4 +1,4 @@
-package br.com.ecommerce.cieloapi;
+package br.com.ecommerce.cieloapi.service;
 
 import java.io.IOException;
 

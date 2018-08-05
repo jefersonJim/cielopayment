@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.ecommerce.cieloapi.PagamentoService;
 import br.com.ecommerce.cieloapi.model.PaymentRequest;
 import br.com.ecommerce.cieloapi.model.PaymentResponse;
+import br.com.ecommerce.cieloapi.service.PagamentoService;
 import cieloecommerce.sdk.ecommerce.request.CieloRequestException;
 
 @RestController(value="/pay")
