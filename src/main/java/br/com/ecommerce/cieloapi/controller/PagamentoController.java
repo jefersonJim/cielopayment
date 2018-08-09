@@ -14,7 +14,7 @@ import br.com.ecommerce.cieloapi.model.PaymentResponse;
 import br.com.ecommerce.cieloapi.service.PagamentoService;
 import cieloecommerce.sdk.ecommerce.request.CieloRequestException;
 
-@RestController(value="/pay")
+@RestController("/pay")
 public class PagamentoController {
 	
 	@Autowired

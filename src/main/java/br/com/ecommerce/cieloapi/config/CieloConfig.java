@@ -8,8 +8,8 @@ import cieloecommerce.sdk.Merchant;
 @Configuration
 public class CieloConfig {
 	
-	private final String MERCHANT_ID = "MERCHANT ID";
-	private final String MERCHANT_KEY = "MERCHANT KEY";
+	private final String MERCHANT_ID = "";
+	private final String MERCHANT_KEY = "";
 
 	@Bean
 	public Merchant merchant(){
